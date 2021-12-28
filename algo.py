@@ -8,6 +8,7 @@ def disemvowel(string_):
         print(char)
         if not (char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u') :
             print ("not a vowel found")
-    return string_
+            output += char
+    return output
 
 print(disemvowel("Hello World!"))
